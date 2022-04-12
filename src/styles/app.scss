@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+// #282c34
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #282c34;
+  font-family: "Ubuntu", sans-serif;
+  color: #f2f2f2;
+}
+
+.onepager-wrapper {
+  border: 1px solid #f2f2f2;
+  .nav-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 3rem;
+    .photo {
+      height: 300px;
+      width: 300px;
+    }
+    .name {
+      font-size: 8rem;
+      font-weight: 500;
+      color: bisque;
+      text-shadow: -4px -4px 0px #fb4443, 4px 4px 0px #239fd0;
+    }
+    .links {
+      .link {
+        padding-top: 2rem;
+      }
+    }
+  }
+
+  .grid-section {
+    padding: 2rem;
+    margin: 2rem;
+    border: 1px solid #f2f2f2;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    .grid-card {
+      border: 1px solid #f2f2f2;
+      position: relative;
+      object-fit: contain;
+
+      img {
+        object-fit: contain;
+        height: 100%;
+        width: 100%;
+      }
+      &:hover {
+        transition: all ease-in-out 0.3s;
+        transform: scale(1.2);
+        z-index: 1;
+      }
+      .title {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+    }
+  }
+}
