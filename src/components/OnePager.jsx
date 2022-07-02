@@ -146,21 +146,6 @@ const OnePager = () => {
         </a>
 
         <a
-          href="https://www.lunafightclub.com/"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <div className="grid-card">
-            <img
-              className="card-image"
-              src={require("../images/lunafc.png")}
-              alt=""
-            />
-            <p className="title">NFT project website</p>
-          </div>
-        </a>
-
-        <a
           href="https://www.secretcoinflip.com/"
           rel="noreferrer"
           target="_blank"
