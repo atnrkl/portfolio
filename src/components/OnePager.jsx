@@ -30,13 +30,6 @@ const OnePager = () => {
           <a target="_blank" rel="noreferrer" href="https://github.com/atnrkl">
             <h1 className="link">Github</h1>
           </a>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href={require("../files/AhmetTanrikuluResume.pdf")}
-          >
-            <h1 className="link">CV</h1>
-          </a>
         </div>
       </div>
 
